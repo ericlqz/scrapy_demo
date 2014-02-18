@@ -1,0 +1,22 @@
+use "http://202.197.120.16:8888" as request proxy for url: http://www.mafengwo.cn/group/info.php?iid=663235&start=100&ownerid=3945295
+use "http://61.181.131.34:9999" as request proxy for url: http://www.mafengwo.cn/group/info.php?iid=601420&start=1800&ownerid=482339
+parse_next: http://www.mafengwo.cn/group/info.php?iid=663235&start=100&ownerid=3945295
+MfwPipeline store item: 663235
+update item: 663235
+get_next_link: http://www.mafengwo.cn/group/info.php?iid=663235&start=100&ownerid=3945295
+page_link[-1]: 1
+parse_next: http://www.mafengwo.cn/group/info.php?iid=601420&start=1800&ownerid=482339
+MfwPipeline store item: 601420
+update item: 601420
+get_next_link: http://www.mafengwo.cn/group/info.php?iid=601420&start=1800&ownerid=482339
+use "http://61.163.194.208:9000" as request proxy for url: http://www.mafengwo.cn/group/info.php?iid=601420&start=1900&ownerid=482339
+parse_next: http://www.mafengwo.cn/group/info.php?iid=601420&start=1900&ownerid=482339
+MfwPipeline store item: 601420
+update item: 601420
+get_next_link: http://www.mafengwo.cn/group/info.php?iid=601420&start=1900&ownerid=482339
+use "http://222.83.14.145:3128" as request proxy for url: http://www.mafengwo.cn/group/info.php?iid=601420&start=2000&ownerid=482339
+parse_next: http://www.mafengwo.cn/group/info.php?iid=601420&start=2000&ownerid=482339
+MfwPipeline store item: 601420
+update item: 601420
+get_next_link: http://www.mafengwo.cn/group/info.php?iid=601420&start=2000&ownerid=482339
+page_link[-1]: 20
